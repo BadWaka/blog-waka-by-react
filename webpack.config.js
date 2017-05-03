@@ -9,6 +9,7 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'public')
     },
+    devtool: 'cheap-eval-source-map',
     module: {
         rules: [
             // babel
