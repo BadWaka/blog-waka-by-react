@@ -4,7 +4,7 @@
   "description": "waka的个人博客 by react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/BadWaka/blog-waka-by-react/issues"
   },
-  "homepage": "https://github.com/BadWaka/blog-waka-by-react#readme"
+  "homepage": "https://github.com/BadWaka/blog-waka-by-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1"
+  }
 }
