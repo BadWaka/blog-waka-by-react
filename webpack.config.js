@@ -54,7 +54,7 @@ module.exports = {
             {
                 test: /\.(png|gif|jpe?g|svg)$/i,
                 use: {
-                    loader: 'url?limit=10000'   // 如果资源小于10kb就内联资源，否则就调用 file-loader 并关联它
+                    loader: 'url-loader?limit=10000'   // 如果资源小于10kb就内联资源，否则就调用 file-loader 并关联它
                 }
             }
         ]

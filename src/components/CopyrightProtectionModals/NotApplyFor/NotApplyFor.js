@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 import style from './style.scss';
 
-// import Modal from '../../Modal/Modal';
+import Modal from '../../Modal/Modal';
 
 export default class NotApplyFor extends Component {
 
@@ -18,9 +18,9 @@ export default class NotApplyFor extends Component {
 
     render() {
         return (
-            <div>
+            <Modal title="你好">
                 NotApplyFor
-            </div>
+            </Modal>
         );
     }
 }
