@@ -8,8 +8,10 @@ waka的个人博客 by react
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.4.0",
+    "babel-preset-env": "^1.4.0",   // 根据环境的babel-env
+    "babel-preset-es2015": "^6.24.1",   // 完整的es6
     "babel-preset-react": "^6.24.1",    // 解释JSX语法
+    "babel-preset-stage-0": "^6.24.1",  // 法力无边的stage-0
     "css-loader": "^0.28.1",    // css-loader 是将 css 装载到 javascript
     "file-loader": "^0.11.1",   // 加载文件资源
     "node-sass": "^4.5.2",  // sass-loader依赖
