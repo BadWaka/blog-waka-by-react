@@ -7,9 +7,9 @@ import style from './style.scss';
 export default class NotApplyFor extends Component {
     render() {
         return (
-            <div>
+            <section>
                 NotApplyFor
-            </div>
+            </section>
         );
     }
 }

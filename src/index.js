@@ -3,7 +3,10 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+
+import './common/reset.css';    // reset css
+
+import App from './components/App'; // App
 
 ReactDOM.render(
     <App/>,
