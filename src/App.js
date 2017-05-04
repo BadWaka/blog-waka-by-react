@@ -3,7 +3,7 @@
  */
 import React, {Component} from 'react';
 import style from './App.scss';
-import NotApplyFor from './CopyrightProtectionModals/NotApplyFor/NotApplyFor';
+import NotApplyFor from './businessComponents/CopyrightProtectionModals/NotApplyFor/NotApplyFor';
 
 export default class App extends Component {
     render() {

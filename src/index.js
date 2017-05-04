@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 
 import './common/reset.css';    // reset css
 
-import App from './components/App'; // App
+import App from './App'; // App
 
 ReactDOM.render(
     <App/>,
