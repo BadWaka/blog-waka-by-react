@@ -3,11 +3,14 @@
  */
 import React, {Component} from 'react';
 import style from './App.scss';
+import NotApplyFor from './CopyrightProtectionModals/NotApplyFor/NotApplyFor';
 
 export default class App extends Component {
     render() {
-        return <div className={style.red}>
-            App
-        </div>
+        return (
+            <div>
+                <NotApplyFr/>
+            </div>
+        );
     }
 }

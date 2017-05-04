@@ -55,7 +55,7 @@ module.exports = {
     // 插件
     plugins: [],
     // 开发工具
-    devtool: 'cheap-eval-source-map',
+    devtool: 'eval',
     // dev server
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
