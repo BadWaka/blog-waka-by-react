@@ -23,11 +23,18 @@ module.exports = {
                     loader: 'babel-loader',
                 }
             },
+            // TypeScript
+            {
+                test: /\.ts$/,
+                use: {
+                    loader: 'ts-loader',
+                }
+            },
             // CSS
             {
                 test: /\.css$/,
                 use: [{
-                    loader: "style-loader" // creates style nodes from JS strings; style-loader 是让 javascript 认识css
+                    loader: 'style-loader' // creates style nodes from JS strings; style-loader 是让 javascript 认识css
                 }, {
                     loader: 'css-loader?modules', // 在css-loader后面加上参数modules，表示打开CSS Modules功能
                 }]
@@ -36,18 +43,18 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [{
-                    loader: "style-loader" // creates style nodes from JS strings; style-loader 是让 javascript 认识css
+                    loader: 'style-loader' // creates style nodes from JS strings; style-loader 是让 javascript 认识css
                 }, {
-                    loader: "css-loader?modules" // translates CSS into CommonJS; css-loader 是将 css 装载到 javascript
+                    loader: 'css-loader?modules' // translates CSS into CommonJS; css-loader 是将 css 装载到 javascript
                 }, {
-                    loader: "sass-loader" // compiles Sass to CSS; sass-loader 是将sass文件编译成css
+                    loader: 'sass-loader' // compiles Sass to CSS; sass-loader 是将sass文件编译成css
                 }]
             },
-            // TypeScript
+            // img url-loader file-loader
             {
-                test: /\.ts$/,
+                test: /\.(png|gif|jpe?g|svg)$/i,
                 use: {
-                    loader: 'ts-loader',
+                    loader: 'url?limit=10000'   // 如果资源小于10kb就内联资源，否则就调用 file-loader 并关联它
                 }
             }
         ]

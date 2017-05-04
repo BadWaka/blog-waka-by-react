@@ -3,7 +3,9 @@
  */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+
 import style from './style.scss';
+// import closeImg from './close.svg';
 
 export default class Modal extends Component {
 
@@ -26,7 +28,7 @@ export default class Modal extends Component {
                 {/* 标题 */}
                 <div className={style.title}>
                     <span>{title}</span>
-                    <img src="" alt="关闭"/>
+                    {/*<img src={closeImg} alt="关闭"/>*/}
                 </div>
                 {/* 内容 */}
                 {this.props.children}
