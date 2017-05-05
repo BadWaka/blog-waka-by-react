@@ -1,39 +1,108 @@
-.row1 {
-  margin: 30px 20px 0 20px;
+input {
+  outline: none;
+}
 
-  .text {
-    margin-left: 10px;
-    /* 系统已列出您在版权保护中心的版保记录，请: */
-    font-family: PingFangSC-Regular;
-    font-size: 14px;
-    color: #4A4A4A;
-    letter-spacing: 0;
-  }
+.hasCopyrightRecords {
 
-  .copyrightRecord {
-    margin: 24px 26px 0 26px;
-    position: relative;
+  .row1 {
+    margin: 30px 20px 0 20px;
 
-    .text, .textRight {
-      /* 查理一世: */
+    .text {
+      margin-left: 10px;
+      /* 系统已列出您在版权保护中心的版保记录，请: */
       font-family: PingFangSC-Regular;
       font-size: 14px;
       color: #4A4A4A;
       letter-spacing: 0;
     }
 
-    .textRight {
-      position: absolute;
-      right: 70px;
+    .copyrightRecord {
+      margin: 24px 26px 0 26px;
+      position: relative;
+
+      .text, .textRight {
+        /* 查理一世: */
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+      }
+
+      .textRight {
+        position: absolute;
+        right: 70px;
+      }
     }
   }
+
+  .row2 {
+    margin: 30px 20px 0 20px;
+
+    .text {
+      margin-left: 10px;
+      /* 系统已列出您在版权保护中心的版保记录，请: */
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #4A4A4A;
+      letter-spacing: 0;
+    }
+
+    .copyrightNumber {
+      position: relative;
+      margin: 0 26px;
+
+      .tips1 {
+        margin-top: 10px;
+        /* 如果系统没有找到您要的版保记录，您可以通: */
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #9B9B9B;
+        letter-spacing: 0;
+      }
+
+      .input {
+        width: 400px;
+        height: 40px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        padding-left: 10px;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        letter-spacing: 0;
+        color: #4A4A4A;
+
+        &::placeholder {
+          /* 版保关联号: */
+          font-family: PingFangSC-Regular;
+          font-size: 14px;
+          color: #DBDBDB;
+          letter-spacing: 0;
+        }
+      }
+
+      .normalTips, .errorTips {
+        top: 70px;
+        position: absolute;
+        /* 作品《查理一世》: */
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #9B9B9B;
+        letter-spacing: 0;
+      }
+
+      .errorTips {
+        /* 版保关联号已经关联了其他的作品: */
+        color: #FF0606;
+      }
+    }
+  }
+
 }
 
-.row2 {
+.noCopyrightRecords {
   margin: 30px 20px 0 20px;
 
   .text {
-    margin-left: 10px;
     /* 系统已列出您在版权保护中心的版保记录，请: */
     font-family: PingFangSC-Regular;
     font-size: 14px;
@@ -43,7 +112,6 @@
 
   .copyrightNumber {
     position: relative;
-    margin: 0 26px;
 
     .tips1 {
       margin-top: 10px;
@@ -59,6 +127,19 @@
       height: 40px;
       box-sizing: border-box;
       margin-top: 10px;
+      padding-left: 10px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      letter-spacing: 0;
+      color: #4A4A4A;
+
+      &::placeholder {
+        /* 版保关联号: */
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #DBDBDB;
+        letter-spacing: 0;
+      }
     }
 
     .normalTips, .errorTips {
