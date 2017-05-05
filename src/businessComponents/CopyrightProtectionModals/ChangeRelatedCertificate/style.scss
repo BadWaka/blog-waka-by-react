@@ -1,0 +1,70 @@
+.wrapper {
+  padding: 30px 20px 40px 20px;
+
+  .text {
+    /* 如果此作品和证书的关联不匹配，请通过版本: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+  }
+
+  .input {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #4A4A4A;
+
+    &::placeholder {
+      /* 版保关联号: */
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #DBDBDB;
+      letter-spacing: 0;
+    }
+  }
+
+  .row3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+
+    .confirm, .cancel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 66px;
+      height: 34px;
+      box-sizing: border-box;
+      /* Rectangle: */
+      background: #0037FF;
+      border-radius: 4px;
+      /* 确定: */
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .cancel {
+      margin-left: 20px;
+      /* Rectangle Copy: */
+      background: #FFFFFF;
+      border: 1px solid #DBDBDB;
+      border-radius: 4px;
+      /* 取消: */
+      font-family: MicrosoftSansSerif;
+      font-size: 14px;
+      color: #707070;
+      letter-spacing: 0;
+    }
+  }
+}
