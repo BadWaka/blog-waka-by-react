@@ -72,7 +72,6 @@ export default class AlreadyApplyFor extends Component {
                     </div>
                 </section>
                 }
-
                 {/* 按钮栏 */}
                 <section className={style.row3}>
                     <span className={style.left}>作品未申请版保 ></span>
