@@ -1,0 +1,94 @@
+.row1 {
+  margin: 30px 20px 0 20px;
+
+  .text {
+    margin-left: 10px;
+    /* 系统已列出您在版权保护中心的版保记录，请: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+  }
+
+  .copyrightRecord {
+    margin: 24px 26px 0 26px;
+    position: relative;
+
+    .text, .textRight {
+      /* 查理一世: */
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #4A4A4A;
+      letter-spacing: 0;
+    }
+
+    .textRight {
+      position: absolute;
+      right: 70px;
+    }
+  }
+}
+
+.row2 {
+  margin: 30px 20px 0 20px;
+
+  .text {
+    margin-left: 10px;
+    /* 系统已列出您在版权保护中心的版保记录，请: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+  }
+}
+
+.row3 {
+  margin: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    /* 作品未申请版保 >: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #0037FF;
+    letter-spacing: 0.17px;
+    cursor: pointer;
+  }
+
+  .right {
+    display: flex;
+
+    .confirm, .cancel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 66px;
+      height: 34px;
+      box-sizing: border-box;
+      /* Rectangle: */
+      background: #0037FF;
+      border-radius: 4px;
+      /* 确定: */
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .cancel {
+      margin-left: 20px;
+      /* Rectangle Copy: */
+      background: #FFFFFF;
+      border: 1px solid #DBDBDB;
+      border-radius: 4px;
+      /* 取消: */
+      font-family: MicrosoftSansSerif;
+      font-size: 14px;
+      color: #707070;
+      letter-spacing: 0;
+    }
+  }
+}
