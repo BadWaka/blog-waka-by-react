@@ -33,8 +33,8 @@ export default class NotApplyFor extends Component {
                     </div>
                 </section>
                 <section className={style.row3}>
-                    <span>作品已申请版保 ></span>
-                    <button>马上去申请</button>
+                    <span className={style.left}>作品已申请版保 ></span>
+                    <span className={style.right}>马上去申请</span>
                 </section>
             </Modal>
         );

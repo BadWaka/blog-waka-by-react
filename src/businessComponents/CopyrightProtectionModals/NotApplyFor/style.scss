@@ -35,5 +35,34 @@
 .row3 {
   margin: 40px 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+
+  .left {
+    /* 作品已申请版保 >: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #0037FF;
+    letter-spacing: 0.17px;
+    cursor: pointer;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 32px;
+    box-sizing: border-box;
+    /* Rectangle 5 Copy: */
+    background: #0037FF;
+    border-radius: 100px;
+    /* 马上去申请: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    user-select: none;
+    cursor: pointer;
+  }
 }

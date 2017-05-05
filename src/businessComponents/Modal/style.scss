@@ -33,8 +33,14 @@
     }
 
     .closeImg {
+      transition: 0.5s;
       position: absolute;
       right: 20px;
+      cursor: pointer;
+
+      &:hover {
+        transform: rotate(90deg)
+      }
     }
   }
 }
