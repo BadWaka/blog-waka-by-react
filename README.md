@@ -28,7 +28,7 @@ waka的个人博客 by react
   "dependencies": {
     "@types/react": "^15.0.24", // React声明文件 TypeScript要用
     "@types/react-dom": "^15.5.0",  // ReactDOM声明文件 TypeScript要用
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.5.8",    // PropTypes校验
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }

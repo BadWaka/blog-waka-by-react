@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+  padding: 30px 20px;
+
+  .text {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    /* 更换关联的证书 >: */
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #0037FF;
+    letter-spacing: 0.17px;
+    cursor: pointer;
+  }
+
+  .img {
+    margin-top: 30px;
+  }
+}
