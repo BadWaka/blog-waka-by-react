@@ -1,4 +1,6 @@
 /**
+ * 作品未申请版保
+ *
  * Created by BadWaka on 04/05/2017.
  */
 import React, {Component} from 'react';
@@ -18,7 +20,7 @@ export default class NotApplyFor extends Component {
 
     render() {
         return (
-            <Modal title="你好">
+            <Modal title="作品未申请版保">
                 NotApplyFor
             </Modal>
         );

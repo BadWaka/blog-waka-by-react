@@ -29,19 +29,22 @@ export default class Modal extends Component {
 
         return (
             <section
-                className={style.modal}
-                style={{
-                    width: width + 'px'
-                }}>
-                {/* 标题 */}
-                <div className={style.title}>
+                className={style.wrapper}>
+                <section
+                    className={style.modal}
+                    style={{
+                        width: width + 'px'
+                    }}>
+                    {/* 标题 */}
+                    <div className={style.title}>
                     <span className={style.text}>
                         {title}
                     </span>
-                    <img className={style.closeImg} src={closeImg} alt="关闭"/>
-                </div>
-                {/* 内容 */}
-                {this.props.children}
+                        <img className={style.closeImg} src={closeImg} alt="关闭"/>
+                    </div>
+                    {/* 内容 */}
+                    {this.props.children}
+                </section>
             </section>
         );
     }
