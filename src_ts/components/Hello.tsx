@@ -5,6 +5,7 @@ export interface HelloProps {
     framework: string;
 }
 
+// 无状态的功能组件
 // export const Hello = (props:HelloProps) = > {
 //     return <h1>Hello from {props.compiler} and {props.framework}!</h1>;
 // }
