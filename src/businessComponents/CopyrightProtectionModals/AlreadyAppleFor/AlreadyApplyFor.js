@@ -80,7 +80,6 @@ export default class AlreadyApplyFor extends Component {
                         <span className={style.cancel}>取消</span>
                     </span>
                 </section>
-
             </Modal>
         );
     }
