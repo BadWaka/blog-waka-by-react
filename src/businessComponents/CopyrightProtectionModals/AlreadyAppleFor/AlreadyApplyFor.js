@@ -36,6 +36,18 @@ export default class AlreadyApplyFor extends Component {
                 <section className={style.row2}>
                     <input type="radio" name="relateWay"/>
                     <span className={style.text}>通过版保关联号进行关联</span>
+                    {/* 通过版保号进行关联 */}
+                    <div className={style.copyrightNumber}>
+                        <div className={style.tips1}>如果系统没有找到您要的版保记录，您可以通过关联号进行手动关联</div>
+                        <div>
+
+                        </div>
+                        <input className={style.input} type="text"/>
+                        {/* 正常提示 */}
+                        <div className={style.normalTips}>作品《查理一世》</div>
+                        {/* 错误提示 */}
+                        <div className={style.errorTips}>版保关联号已经关联了其他的作品</div>
+                    </div>
                 </section>
                 <section className={style.row3}>
                     <span className={style.left}>作品未申请版保 ></span>
