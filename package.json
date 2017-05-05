@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js",
-    "build-ts": "./node_modules/.bin/webpack --config webpack.config.typescript.js",
+    "build-ts": "./node_modules/.bin/webpack --config webpack.config.ts.js",
     "dev": "./node_modules/.bin/webpack-dev-server --progress"
   },
   "repository": {
