@@ -3,10 +3,14 @@
  */
 import React, {Component} from 'react';
 import style from './App.scss';
-import NotApplyFor from './businessComponents/CopyrightProtectionModals/NotApplyFor/NotApplyFor';
-import AlreadyAppleFor from './businessComponents/CopyrightProtectionModals/AlreadyAppleFor/AlreadyApplyFor';
-import CopyrightProtectionCertificate from './businessComponents/CopyrightProtectionModals/CopyrightProtectionCertificate/CopyrightProtectionCertificate';
-import ChangeRelatedCertificate from './businessComponents/CopyrightProtectionModals/ChangeRelatedCertificate/ChangeRelatedCertificate';
+
+// 版保模态框
+import {
+    AlreadyAppleFor,
+    ChangeRelatedCertificate,
+    CopyrightProtectionCertificate,
+    NotApplyFor
+} from './businessComponents/CopyrightProtectionModals/';
 
 export default class App extends Component {
     render() {
