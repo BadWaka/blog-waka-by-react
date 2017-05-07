@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import style from './App.scss';
 
-// 版保模态框
+// 业务组件
 import {
     AlreadyAppleFor,
     ChangeRelatedCertificate,
@@ -12,11 +12,16 @@ import {
     NotApplyFor
 } from './businessComponents/CopyrightProtectionModals/';
 
+// 个人组件
+import {
+    Slider, // 轮播图
+} from './components';
+
 export default class App extends Component {
     render() {
         return (
             <div>
-                <ChangeRelatedCertificate/>
+                <Slider/>
             </div>
         );
     }
