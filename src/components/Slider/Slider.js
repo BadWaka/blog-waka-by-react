@@ -27,13 +27,15 @@ export default class Slider extends Component {
 
         return (
             <section className={style.wrapper}>
-                {imgArr.map((item, index) => {
-                    return <img
-                        className={style.imgItem}
-                        key={index}
-                        src={item.src}
-                        alt={item.alt}/>;
-                })}
+                <div>
+                    {imgArr.map((item, index) => {
+                        return <img
+                            className={style.imgItem}
+                            key={index}
+                            src={item.src}
+                            alt={item.alt}/>;
+                    })}
+                </div>
             </section>
         );
     }
