@@ -29,9 +29,9 @@ waka的个人博客 by react
   "dependencies": {
     "@types/react": "^15.0.24", // React声明文件 TypeScript要用
     "@types/react-dom": "^15.5.0",  // ReactDOM声明文件 TypeScript要用
-    "antd": "^2.10.0",  // Ant Design
     "prop-types": "^15.5.8",    // PropTypes校验
     "react": "^15.5.4", // react
-    "react-dom": "^15.5.4"  // react-dom
+    "react-dom": "^15.5.4"  // react-dom,
+    "react-slick": "^0.14.11",  // 轮播图
   }
 ```
