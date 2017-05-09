@@ -7,8 +7,9 @@ waka的个人博客 by react
 ```
   "devDependencies": {
   "awesome-typescript-loader": "^3.1.3",    // awesome-typescript-loader可以让Webpack使用TypeScript的标准配置文件 tsconfig.json编译TypeScript代码
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
+    "babel-core": "^6.24.1",    // babel核心
+    "babel-loader": "^7.0.0",   // babel loader
+    "babel-plugin-import": "^1.1.1",    // 用来进行按需加载
     "babel-preset-env": "^1.4.0",   // 根据环境的babel-env
     "babel-preset-es2015": "^6.24.1",   // 完整的es6
     "babel-preset-react": "^6.24.1",    // 解释JSX语法
@@ -22,14 +23,15 @@ waka的个人博客 by react
     "ts-loader": "^2.0.3",  // 编译TypeScript
     "typescript": "^2.3.2", // TypeScript
     "url-loader": "^0.5.8", // 加载文件资源，并转化成base64url，如果小于限制大小则使用file-loader
-    "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack": "^2.4.1",    // webpack
+    "webpack-dev-server": "^2.4.5"  // webpack开发服务器
   },
   "dependencies": {
     "@types/react": "^15.0.24", // React声明文件 TypeScript要用
     "@types/react-dom": "^15.5.0",  // ReactDOM声明文件 TypeScript要用
+    "antd": "^2.10.0",  // Ant Design
     "prop-types": "^15.5.8",    // PropTypes校验
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.5.4", // react
+    "react-dom": "^15.5.4"  // react-dom
   }
 ```

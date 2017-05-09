@@ -4,6 +4,11 @@
 import React, {Component} from 'react';
 import style from './App.scss';
 
+// Ant Design
+import {
+    Carousel,
+} from 'antd';
+
 // 业务组件
 import {
     AlreadyAppleFor,
@@ -18,12 +23,20 @@ import {
 } from './components';
 
 export default class App extends Component {
+
+    onChange(a, b, c) {
+        console.log(a, b, c);
+    }
+
     render() {
         return (
             <div>
-                <Slider
-                    width={500}
-                    height={500}/>
+                <Carousel afterChange={this.onChange}>
+                    <div><h3>1</h3></div>
+                    <div><h3>2</h3></div>
+                    <div><h3>3</h3></div>
+                    <div><h3>4</h3></div>
+                </Carousel>
             </div>
         );
     }
