@@ -3,8 +3,23 @@
   display: flex;
   margin: 0 auto;
   background: red;
+  overflow: hidden;
 
-  .imgItem {
+  .imgCropFront {
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    z-index: 1;
   }
+
+  .imgArrBackground {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+
+    .imgItem {
+
+    }
+  }
+
 }
 

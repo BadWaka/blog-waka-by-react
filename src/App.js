@@ -21,7 +21,9 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <Slider/>
+                <Slider
+                    width={500}
+                    height={500}/>
             </div>
         );
     }

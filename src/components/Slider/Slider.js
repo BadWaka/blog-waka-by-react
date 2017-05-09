@@ -8,6 +8,12 @@ import style from './style.scss';
 
 export default class Slider extends Component {
 
+    static propTypes = {
+        width: PropsTypes.number,    // 图片宽度
+        height: PropsTypes.number,   // 图片高度
+    };
+
+    static defaultProps = {};
 
     render() {
 
@@ -25,12 +31,28 @@ export default class Slider extends Component {
             alt: ''
         }];
 
+        const {
+            width,
+            height,
+        } = this.props;
+
         return (
             <section className={style.wrapper}>
-                <div>
+                {/* 前置放置裁剪框 */}
+                <div className={style.imgCropFront}
+                     style={{
+                         width: width + 'px',
+                         height: height + 'px'
+                     }}>
+
+                </div>
+                {/* 后置放置图片 */}
+                <div className={style.imgArrBackground}>
                     {imgArr.map((item, index) => {
                         return <img
                             className={style.imgItem}
+                            width={width}
+                            height={height}
                             key={index}
                             src={item.src}
                             alt={item.alt}/>;
