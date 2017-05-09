@@ -33,5 +33,6 @@ waka的个人博客 by react
     "react": "^15.5.4", // react
     "react-dom": "^15.5.4"  // react-dom,
     "react-slick": "^0.14.11",  // 轮播图
+    "slick-carousel": "^1.6.0", // react-slick 轮播图组件的样式
   }
 ```

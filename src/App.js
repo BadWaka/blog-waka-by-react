@@ -15,6 +15,7 @@ import {
 // 个人组件
 import {
     Header, // 头部
+    Index,  // 主页
     Slider, // 轮播图
 } from './components';
 
@@ -23,7 +24,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Index/>
             </div>
         );
     }

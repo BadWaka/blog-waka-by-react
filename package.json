@@ -46,6 +46,7 @@
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-slick": "^0.14.11"
+    "react-slick": "^0.14.11",
+    "slick-carousel": "^1.6.0"
   }
 }

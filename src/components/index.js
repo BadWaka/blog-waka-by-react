@@ -3,4 +3,5 @@
  */
 
 export Header from './Header/Header';
+export Index from './Index/Index';
 export Slider from './Slider/Slider';
