@@ -5,17 +5,10 @@ import React, {Component} from 'react';
 import style from './App.scss';
 
 // Ant Design
-import {
-    Carousel,
-} from 'antd';
+import {Carousel} from 'antd';
 
 // 业务组件
-import {
-    AlreadyAppleFor,
-    ChangeRelatedCertificate,
-    CopyrightProtectionCertificate,
-    NotApplyFor
-} from './businessComponents/CopyrightProtectionModals/';
+import {AlreadyAppleFor, ChangeRelatedCertificate, CopyrightProtectionCertificate, NotApplyFor} from './businessComponents/CopyrightProtectionModals/';
 
 // 个人组件
 import {
@@ -32,10 +25,18 @@ export default class App extends Component {
         return (
             <div>
                 <Carousel afterChange={this.onChange}>
-                    <div><h3>1</h3></div>
-                    <div><h3>2</h3></div>
-                    <div><h3>3</h3></div>
-                    <div><h3>4</h3></div>
+                    <div>
+                        <h3>1</h3>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                    </div>
                 </Carousel>
             </div>
         );
