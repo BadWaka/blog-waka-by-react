@@ -170,11 +170,9 @@
         var i = 0;  // 遍历下标
         var length = array.length;  // 数组长度
         var interval = null;    // 轮循句柄，还可以用来判断是否正在抽奖
-        var intervalTime = 100; // 轮循时间，单位毫秒
+        var intervalTime = 90; // 轮循时间，单位毫秒
 
         $('body').keypress(function (event) {
-
-            // console.log('keyCode', event.keyCode);
 
             switch (event.keyCode) {
                 // 回车
@@ -211,17 +209,29 @@
         }
 
         /**
+         * 产生随机数
+         *
+         * @param min
+         * @param max
+         */
+        var lastRandom = null;  // 记录上次的随机数，修复多次选中同一幅图片造成卡顿的问题，解决视觉上带来的不公平
+        function generateRandom(max) {
+            var random = Math.floor(Math.random() * max);
+            while (lastRandom === random) {
+                random = Math.floor(Math.random() * max);
+            }
+            console.log('随机数', random);
+            lastRandom = random;
+            return random;
+        }
+
+        /**
          * 开始
          */
         function start() {
             interval = setInterval(function () {
-                var chosen = array[i];
+                var chosen = array[generateRandom(array.length)];
                 setChosenAvatarAndName(chosen.img_url, chosen.author_name);
-                if (i === length - 1) {
-                    i = 0;
-                } else {
-                    i++;
-                }
             }, intervalTime);
         }
 
