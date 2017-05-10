@@ -7,121 +7,130 @@ var page = new Vue({
         surPlusVotes: 5,    // 剩余票数
         list: [
             {
+                "ip_name": "我们的秘密",
+                "vote_count": "2237",
+                "author_name": "杜惠新",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_DuHuiXin.png",
+                "objectId": "5912c4b361ff4b006269ea3d",
+                "createdAt": "2017-05-10T07:43:47.865Z",
+                "updatedAt": "2017-05-10T08:46:02.140Z"
+            },
+            {
                 "ip_name": "五行杀",
-                "img_url": "http://img.hb.aicdn.com/032c48bdf55c39e180d493946c8b91b1c30798ec3349d-Lw22f2_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_QianDu.png",
                 "vote_count": "12",
                 "author_name": "千度",
                 "objectId": "5912a945ac502e45028bf4c4",
                 "createdAt": "2017-05-10T05:46:45.824Z",
-                "updatedAt": "2017-05-10T05:47:00.525Z"
+                "updatedAt": "2017-05-10T08:46:25.403Z"
             },
             {
                 "ip_name": "平行时间的恋人",
-                "img_url": "http://img.hb.aicdn.com/36b8ee2d26d8f2a27386c8ade958c0f31cab4fcaf696-1z97Iu_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_ZiYu.png",
                 "vote_count": "31",
                 "author_name": "子逾",
                 "objectId": "5912a913ac502e45028bf36f",
                 "createdAt": "2017-05-10T05:45:55.506Z",
-                "updatedAt": "2017-05-10T05:46:30.402Z"
+                "updatedAt": "2017-05-10T08:46:44.011Z"
             },
             {
                 "ip_name": "归来",
-                "img_url": "http://img.hb.aicdn.com/1cecd61a539c9eb038f019d33ed1eda833b69a109fcad-NBKbz5_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_GuYu.png",
                 "vote_count": "56",
                 "author_name": "谷峪",
                 "objectId": "5912a8e92f301e0057f11df5",
                 "createdAt": "2017-05-10T05:45:13.497Z",
-                "updatedAt": "2017-05-10T05:46:11.755Z"
+                "updatedAt": "2017-05-10T08:47:00.361Z"
             },
             {
                 "ip_name": "金鱼走失的日子",
-                "img_url": "http://img.hb.aicdn.com/f8127d95fbeb22cafba72f7055e532b40e5a0a0c4cf22-t7voiU_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_QingLai.png",
                 "vote_count": "14",
                 "author_name": "青来",
                 "objectId": "5912a8c1da2f60005371178c",
                 "createdAt": "2017-05-10T05:44:33.152Z",
-                "updatedAt": "2017-05-10T05:45:05.351Z"
+                "updatedAt": "2017-05-10T08:47:15.935Z"
             },
             {
                 "ip_name": "夺命十日",
-                "img_url": "http://img.hb.aicdn.com/e9d45d6be8d761743407a037d3c3482da3835fe81721c-nvniE2_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_JianBai.png",
                 "vote_count": "76",
                 "author_name": "简白",
                 "objectId": "5912a89d2f301e0057f11c26",
                 "createdAt": "2017-05-10T05:43:57.363Z",
-                "updatedAt": "2017-05-10T05:44:55.979Z"
+                "updatedAt": "2017-05-10T08:47:30.290Z"
             },
             {
                 "ip_name": "破冰者",
-                "img_url": "http://img.hb.aicdn.com/88f4b24767fe503ae2af5336fa27a205fad24fd2eeed-5sYCzi_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_DuanZiQi.png",
                 "vote_count": "23",
                 "author_name": "段子期",
                 "objectId": "5912a86761ff4b006268ed59",
                 "createdAt": "2017-05-10T05:43:03.858Z",
-                "updatedAt": "2017-05-10T05:43:37.136Z"
+                "updatedAt": "2017-05-10T08:47:48.143Z"
             },
             {
                 "ip_name": "鲨鱼游戏",
-                "img_url": "http://img.hb.aicdn.com/723b3de74f5e6297b840a1ead898864d7969d655dc354-czwf20_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_BingHe.png",
                 "vote_count": "13",
                 "author_name": "冰河",
                 "objectId": "5912a84ada2f60005371148e",
                 "createdAt": "2017-05-10T05:42:34.252Z",
-                "updatedAt": "2017-05-10T05:42:51.797Z"
+                "updatedAt": "2017-05-10T08:48:08.188Z"
             },
             {
                 "ip_name": "老不正经",
-                "img_url": "http://img.hb.aicdn.com/149d13539aacf6b28247c8fe2fdcebdc56b8a8884215d-yL1DfT_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_QiaoEr.png",
                 "vote_count": "54",
                 "author_name": "巧贰",
                 "objectId": "59128fa261ff4b0062681f1e",
                 "createdAt": "2017-05-10T03:57:22.410Z",
-                "updatedAt": "2017-05-10T03:57:42.373Z"
+                "updatedAt": "2017-05-10T08:48:21.729Z"
             },
             {
                 "ip_name": "时间迷宫",
-                "img_url": "http://img.hb.aicdn.com/34427dc0a7f4ecc448bd350b0c21774aa00c2ae17ef6-FxeAyJ_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_XingMu.png",
                 "vote_count": "45",
                 "author_name": "醒目",
                 "objectId": "59128f7cac502e45028b145a",
                 "createdAt": "2017-05-10T03:56:44.708Z",
-                "updatedAt": "2017-05-10T03:57:01.099Z"
+                "updatedAt": "2017-05-10T08:48:41.193Z"
             },
             {
                 "ip_name": "噩梦编辑师",
-                "img_url": "http://img.hb.aicdn.com/ad2f2b3887d1c27afc95183dd77b5565d55779b71da4c-7E1cv9_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_JiuShanXiao.png",
                 "vote_count": "24",
                 "author_name": "九山萧",
                 "objectId": "59128f50128fe1005867d4ed",
                 "createdAt": "2017-05-10T03:56:00.012Z",
-                "updatedAt": "2017-05-10T03:56:29.703Z"
+                "updatedAt": "2017-05-10T08:48:53.737Z"
             },
             {
                 "ip_name": "七个任务",
-                "img_url": "http://img.hb.aicdn.com/d7652b864c6d66995c9792694d5f097ae1e3a7d37dd0-FdfasS_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_WangWei.png",
                 "vote_count": "12",
                 "author_name": "汪伟",
                 "objectId": "59128f121b69e6006868d755",
                 "createdAt": "2017-05-10T03:54:58.397Z",
-                "updatedAt": "2017-05-10T03:55:45.131Z"
+                "updatedAt": "2017-05-10T08:49:05.206Z"
             },
             {
                 "ip_name": "白色苍狗",
-                "img_url": "http://img.hb.aicdn.com/f723a7d00650dfd3db8cf0798c4b4c1bb394bb3e5cf31-IIvzp7_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_GuoLinXiang.png",
                 "vote_count": "50",
                 "author_name": "郭林翔",
                 "objectId": "59127b4c2f301e0057ef8169",
                 "createdAt": "2017-05-10T02:30:36.014Z",
-                "updatedAt": "2017-05-10T02:31:04.840Z"
+                "updatedAt": "2017-05-10T08:49:20.588Z"
             },
             {
                 "ip_name": "超脑",
                 "author_name": "王九一",
                 "vote_count": "100",
-                "img_url": "http://img.hb.aicdn.com/871c447484a98f332042c34678f1792bd5b9202776e0-JdkMuu_sq320",
+                "img_url": "https://yunlaiwu0.cn-bj.ufileos.com/avatar_120_WangJiuYi.png",
                 "objectId": "59127af9ac502e45028a47e2",
                 "createdAt": "2017-05-10T02:29:13.211Z",
-                "updatedAt": "2017-05-10T02:30:01.239Z"
+                "updatedAt": "2017-05-10T08:49:34.434Z"
             }
         ]
     }
