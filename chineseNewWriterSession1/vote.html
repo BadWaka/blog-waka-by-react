@@ -25,7 +25,7 @@
 
     <!--主体-->
     <ul class="content">
-        <li class="item" v-for="(item,index) in list">
+        <li class="item" v-for="(item,index) in list" :key=index>
             <img class="img" :src=item.img_url alt="头像">
             <section class="right">
                 <h2 class="ip-name">《{{item.ip_name}}》</h2>
