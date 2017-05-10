@@ -169,7 +169,34 @@
 
         var i = 0;  // 遍历下标
         var length = array.length;  // 数组长度
-        var interval = null;    // 轮循句柄
+        var interval = null;    // 轮循句柄，还可以用来判断是否正在抽奖
+        var intervalTime = 100; // 轮循时间，单位毫秒
+
+        $('body').keypress(function (event) {
+
+            // console.log('keyCode', event.keyCode);
+
+            switch (event.keyCode) {
+                // 回车
+                case 13:
+                    if (!interval) {
+                        start();
+                    } else {
+                        stop();
+                    }
+                    break;
+                // 空格
+                case 32:
+                    if (!interval) {
+                        start();
+                    } else {
+                        stop();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        });
 
         /**
          * 设置选中的人的头像和姓名
@@ -195,7 +222,7 @@
                 } else {
                     i++;
                 }
-            }, 500);
+            }, intervalTime);
         }
 
         /**
@@ -203,6 +230,7 @@
          */
         function stop() {
             clearInterval(interval);
+            interval = null;
         }
     });
 </script>
