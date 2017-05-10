@@ -25,13 +25,13 @@
 
     <!--主体-->
     <ul class="content">
-        <li class="item">
-            <img class="img" src="" alt="头像">
+        <li class="item" v-for="(item,index) in list">
+            <img class="img" :src=item.img_url alt="头像">
             <section class="right">
-                <h2 class="ip-name">《超脑》</h2>
-                <b class="author-name">作者：王九一</b>
+                <h2 class="ip-name">《{{item.ip_name}}》</h2>
+                <b class="author-name">作者：{{item.author_name}}</b>
                 <div class="row3">
-                    <b class="vote-count">1099 票</b>
+                    <b class="vote-count">{{item.vote_count}} 票</b>
                     <button class="btn-vote">投票</button>
                 </div>
             </section>
@@ -47,6 +47,17 @@
         el: '#page',
         data: {
             surPlusVotes: 5,    // 剩余票数
+            list: [{
+                img_url: 'http://img.hb.aicdn.com/871c447484a98f332042c34678f1792bd5b9202776e0-JdkMuu_sq320',
+                ip_name: '超脑',
+                author_name: '王九一',
+                vote_count: 100,
+            }, {
+                img_url: 'http://img.hb.aicdn.com/3ba072b8af5d553e68eef86b8660f2523af690b568f4b-t1hYJ7_sq320',
+                ip_name: '白色苍狗',
+                author_name: '郭林翔',
+                vote_count: 200,
+            },]
         }
     });
 </script>
