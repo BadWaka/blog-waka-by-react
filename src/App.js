@@ -5,17 +5,12 @@ import React, {Component} from 'react';
 import style from './App.scss';
 
 // 业务组件
-import {
-    AlreadyAppleFor,
-    ChangeRelatedCertificate,
-    CopyrightProtectionCertificate,
-    NotApplyFor
-} from './businessComponents/CopyrightProtectionModals/';
+import {AlreadyAppleFor, ChangeRelatedCertificate, CopyrightProtectionCertificate, NotApplyFor} from './businessComponents/CopyrightProtectionModals/';
 
 // 个人组件
 import {
     Header, // 头部
-    Index,  // 主页
+    Index, // 主页
     Slider, // 轮播图
 } from './components';
 

@@ -15,6 +15,11 @@ waka的个人博客 by react
     "babel-preset-react": "^6.24.1",    // 解释JSX语法
     "babel-preset-stage-0": "^6.24.1",  // 法力无边的stage-0
     "css-loader": "^0.28.1",    // css-loader 是将 css 装载到 javascript
+    "eslint": "^3.19.0",  // eslint
+    "eslint-config-airbnb": "^15.0.0",  // airbnb eslint 标准
+    "eslint-plugin-import": "^2.2.0", // 插件加载器
+    "eslint-plugin-jsx-a11y": "^5.0.1", // jsx
+    "eslint-plugin-react": "^7.0.1",  // react
     "file-loader": "^0.11.1",   // 加载文件资源
     "node-sass": "^4.5.2",  // sass-loader依赖
     "sass-loader": "^6.0.3",    // 将scss编译为css
