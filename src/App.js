@@ -7,7 +7,7 @@ import style from './App.scss';
 // 个人组件
 import {
   Index, // 主页
-} from './components';
+} from './components';  
 
 export default class App extends Component {
   render() {
